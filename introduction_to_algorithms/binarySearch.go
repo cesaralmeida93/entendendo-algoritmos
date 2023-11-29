@@ -6,9 +6,6 @@ func binarySearch(list []int, i int) int {
 	low := 0
 	high := len(list) - 1
 
-	fmt.Println("primeiro low:", low)
-	fmt.Println("primeiro high:", high)
-
 	for low <= high {
 		mid := (low + high) / 2
 		if list[mid] == i {
